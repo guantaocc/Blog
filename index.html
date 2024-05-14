@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="baidu-site-verification" content="codeva-VBBBn6hyor" />
     <link rel="stylesheet" href="./Static/vue.css">
+    <link rel="stylesheet" href="./Static/chinese.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
     <!-- <link rel="stylesheet" href="./Static/gitalk.css"> -->
     <!-- <meta name="referrer" content="no-referrer"> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,6 +47,25 @@
             },
             count: {
                 position: "bottom",
+            },
+            markdown: {
+                renderer: {
+                    code: function(code, lang){
+                        console.log(code, lang);
+                        if(lang === 'dra-zh'){
+                            return `<div class="chinese-transform">
+                                      <div class="chinese-transform-title">:beginner:  原文</div>
+                                      <div class="chinese-code">${code}</div>
+                                    </div>`
+                        } else if(lang === 'dra-en'){
+                            return `<div class="chinese-transform">
+                                      <div class="chinese-transform-title">:beginner:  译文</div>
+                                      <div class="chinese-code">${code}</div>
+                                    </div>`
+                        }
+                        return this.origin.code.apply(this, arguments);
+                    }
+                }
             }
         }
     </script>

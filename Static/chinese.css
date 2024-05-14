@@ -1,0 +1,54 @@
+.chinese-transform {
+  background: #f7f8fa;
+  box-sizing: border-box;
+  position:relative;
+  padding: 20px;
+  border-radius: 4px;
+  color: #1d2129;
+  margin-top: 30px;
+}
+.chinese-transform:hover {
+  background: #f2f3f5;
+}
+
+.chinese-transform .emoji {
+  height: 1.5rem;
+  vertical-align: text-top;
+}
+
+.chinese-transform-title {
+  font-size: 20px;
+  font-weight: 600;  
+  margin-bottom: 20px;
+}
+
+.chinese-code {
+  position: relative;
+  font-size: 18px;
+  background: #e8f3ff;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  word-break: break-all;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.english-code {
+  position: relative;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  font-size: 18px;
+  background: #e8ffea;
+  border-radius: 6px;
+}
+
+.dra-origin {
+  background: #92b3a5;
+  box-sizing: border-box;
+  position:relative;
+  padding: 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+}

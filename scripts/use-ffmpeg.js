@@ -1,8 +1,3 @@
-# node 调用ffmpeg
-
-## 将视频拆分为多个gif图
-
-```js
 const { execSync} = require('child_process')
 const path = require('path')
 
@@ -22,4 +17,3 @@ try {
 } catch (error) {
   console.log(error);
 }
-```

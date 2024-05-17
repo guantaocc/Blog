@@ -1,15 +1,23 @@
 * VSCode
     * [简易代码生成snippets](VSCode/简易代码生成snippets.md)
-
 * JavaScript
     * [正则表达式](JavaScript/正则表达式.md)
-
 * Node
     * [使用node搭建简易cli工具](Node/使用node搭建简易cli工具.md)
-
 * 生活感悟
     * [工作之神奇的生活习惯](MyLife/工作之神奇的生活习惯.md)
-    
 * 读书笔记
     * [长安的荔枝](MyRead/长安的荔枝.md)
     * [肖申克的救赎](MyRead/肖申克的救赎.md)
+* linux
+    - [ffmpeg常用命令](linux/ffmpeg使用.md)
+    - [数据库问题总结](linux/数据库问题.md)
+* Node
+    - [node调用ffmpeg](Node/node调用ffmpeg.md)
+* Git
+    -  [git](Git/git.md)
+* Vue3
+    - [Vue3-use](Vue3/Vue3-use钩子总结.md)
+* NestJS
+    - [初始化项目](NestJS/初始化项目.md)
+    - [项目配置](NestJS/项目配置.md)

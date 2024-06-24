@@ -48,3 +48,24 @@ let CRS_4490 = new $L.Proj.CRS('EPSG:4490', '+proj=longlat +ellps=GRS80 +no_defs
       mector_zh:
         'https://t0.tianditu.gov.cn/DataServer?T=cia_c&x={x}&y={y}&l={z}&tk=030e0ed17677a95129072c03f6c0fb6c',
 ```
+
+![image-20240621155334704](https://raw.githubusercontent.com/guantaocc/picgo/master/images/202406211553930.png)
+
+### 切片
+
+XYZ切片，切片通常为256px*256px
+
+![image-20240621161854529](https://raw.githubusercontent.com/guantaocc/picgo/master/images/202406211618691.png)
+
+### 投影坐标系
+
+投影坐标系 = 大地坐标系 + 投影方法
+
+web mector(墨卡托): epsg:3857
+
+GCS2000(国家大地坐标系)
+
+PCS(投影坐标系)
+
+### kernal
+

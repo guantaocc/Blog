@@ -69,3 +69,6 @@ PCS(投影坐标系)
 
 ### kernal
 
+![image-20240624184305506](https://raw.githubusercontent.com/guantaocc/picgo/master/images/202406241843703.png)
+
+![image-20240624184319950](https://raw.githubusercontent.com/guantaocc/picgo/master/images/202406241843034.png)
